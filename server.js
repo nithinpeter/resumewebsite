@@ -10,4 +10,6 @@ app.get('/',function(req,res) {
     res.send('index.html');
 })
 
-app.listen(process.env.PORT || 9000).listen(3000);
+app.listen(process.env.PORT || 9000);
+
+console.log("listening on port 9000")
